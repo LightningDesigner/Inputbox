@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         sans:['Inter', 'sans-serif'],
       },
+
       colors: {
         'input-text': '#292929',
         'input-border': '#C9C9C9',
