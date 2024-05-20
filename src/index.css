@@ -4,10 +4,26 @@
 
 
 .custom-shadow-active {
-  box-shadow: 0 0 0 1.3px #999999,  
-              0 0 0 3px rgba(152, 152, 152, 0.31); 
+  box-shadow: 0 0 0 1.6px #999999,  
+              0 0 0 5px hsl(0, 0%, 91%); 
 }
 .custom-shadow-error {
-  box-shadow: 0 0 0 1.3px #D31832,  
-              0 0 0 3px rgba(229, 50, 74, 0.31); 
+  box-shadow: 0 0 0 1.6px #D31832, 
+              0 0 0 5px rgba(211, 24, 50, 0.17); 
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
+
+.custom-shake {
+  animation: shake 300ms ease-in-out;
 }
