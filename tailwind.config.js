@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      fontWeight: {
+        400: '400',
+        600: '600',
+        442: '442', // Example of a custom font weight
+      },
+      
       fontFamily: {
         sans:['Inter', 'sans-serif'],
       },
